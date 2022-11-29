@@ -1,0 +1,168 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	background-color: #edf2f8;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 20px;
+	margin: 100px 150px;
+}
+
+
+
+.daniel {
+	background-color: #733fc8;
+	grid-column: 1 / span 2;
+	padding: 20px 40px;
+	border-radius: 10px;
+	background-image: url(images/bg-pattern-quotation.svg);
+	background-repeat: no-repeat;
+	background-position: 400px 0px;
+	background-size: 120px;
+}
+
+.daniel strong, .jon strong, .patrick strong {
+	font-weight: 500;
+	color: hsl(0, 0%, 100%);
+	font-size: 1.4em;
+}
+
+.daniel h2, .patrick h2, .jon h2 {
+	padding-left: 20px;
+	line-height: 0.5em;
+	color: hsl(0, 0%, 100%);
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.daniel h3 , .patrick h3, .jon h3 {
+	padding-left: 20px;
+	line-height: 0.5em;
+	color: hsl(0, 0%, 100%);
+	opacity: 0.5;
+	font-size: 0.9em;
+}
+
+
+.daniel img, .patrick img {
+	border-radius: 100%;
+	width: 35px;
+	border: 2px solid #a576e6;
+}
+
+.id {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.paragraphs {
+	color: hsl(0, 0%, 100%);
+	opacity: 0.3;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.jon {
+	background-color: #49556b;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+
+
+.jon img {
+	border-radius: 100%;
+	width: 35px;
+}
+
+.jeanette {
+	background-color: white;
+	grid-row: 2 / span 1;
+	grid-column: 1 / span 1;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+
+.jeanette strong, .kira strong {
+	font-weight: 500;
+	color: hsl(217, 19%, 35%);
+	font-size: 1.4em;
+}
+
+.jeanette h2, .kira h2 {
+	padding-left: 20px;
+	line-height: 0.5em;
+	color: hsl(217, 19%, 35%);
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.jeanette h3, .kira h3 {
+	padding-left: 20px;
+	line-height: 0.5em;
+	color: hsl(217, 19%, 35%);
+	opacity: 0.5;
+	font-size: 0.9em;
+}
+
+.jeanette img, .kira img {
+	border-radius: 100%;
+	width: 35px;
+}
+
+.paragraphs1 {
+	color: hsl(219, 29%, 14%);
+	opacity: 0.3;
+	font-weight: 600;
+	font-size: 0.9em;
+	margin-top: 30px;
+}
+
+.patrick {
+	background-color: #18202d;
+	grid-column: 2 / span 2;
+	grid-row: 2 / span 1;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+
+
+.kira {
+	background-color: white;
+	grid-column: 4 / span 1;
+	grid-row: 1 / span 2;
+	padding: 20px 40px;
+	border-radius: 10px;
+}
+
+
+footer {
+	font-size: 11px; 
+	text-align: center;
+}
+
+footer a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media all and (max-width: 400px) {
+	section {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 15px;
+	}
+}
+
+
+
+
+
+
+
+
